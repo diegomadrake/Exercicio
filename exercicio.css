@@ -4,11 +4,130 @@
 
 }
 .cabecalho {
-    background-color: rgb(rgba(0, 17, 255, 0.315);
+    background-color: rgba(0, 17, 255, 0.315);
     padding: 70px;
- 
-}
-.menu-header {
     display: flex;
     justify-content: end;
+}
+.cabeçalho {
+    display: flex;
+    justify-content: end;
+}
+.cabeçalho li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+.cabelalho li a {
+    text-decoration: none;
+    color: rgb(255, 255,255);
+    font-size: 12px;
+}
+.cabeçalho a:hover {
+    color: blue;
+    transition: 0.8s;
+}
+#CABEÇALHO{
+    padding: 15rem;
+    background: linear-gradient(180deg, #c0c0c0 8.33%, rgba(90, 168, 168) 100%);
+}
+#CABEÇALHO h2 {
+    font-size:3em ;
+    color:rgba(0,0,0,0.767);
+}
+#CABEÇALHO p {
+    font-size: 2.3em;
+    margin:20px 0;
+}
+#CABEÇALHO button {
+    padding: 25px;
+    border-radius:50px;
+    border-color:rgb(19, 153,108);
+    width:20em;
+    cursor: pointer;
+    color:rgb(19,153,108)
+}
+#Lenda {
+    padding: 15rem;
+    background-color: rgb(226, 233, 233);
+    display: flex;
+    justify-content: space-around;
+}
+#Lenda button a {
+    text-decoration: none;
+    color:rgb(19, 153, 108);
+}
+#Lenda div p {
+    font-size: 2.9em;
+    margin-bottom: 20px;
+}
+#Lenda div img {
+    width: 25rem;
+    height: 25rem;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+#line-tom {
+    padding: 15rem;
+    background-color: rgb(226, 233, 233);
+
+}
+#line-tom h2 {
+    font-size: 40px;
+    text-align: center;
+    color:rgba(7, 7, 99, 0.697);
+    margin-top: -20rem;
+    margin-bottom: 2rem;
+}
+#line-tom button {
+    padding: 20px;
+    border-radius: 50px;
+    border-color:  rgb(19, 153,108);
+    width: 20em;
+    cursor: pointer;
+    color: rgb(19, 153,108);
+}
+#line-tom p {
+   font-size: 1.4rem;
+   color: rgb(34, 34, 74);
+   margin-bottom: 40px;
+   text-align:justify;
+}
+.line {
+    width: 70%;
+    margin: 45px auto;
+}
+#line-tom img {
+    width: 45rem;
+    margin-left: 50px;
+
+}
+.footer-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer div p {
+    color: rgba(5, 39, 101, 0.745);
+}
+.footer-div a:hover {
+    color: aquamarine;
+    transition: 0s;
+}
+footer {
+    padding: 5rem;
+    background-color: gray;
+    text-align: center;
+}
+footer div {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+footer div a {
+    text-decoration: none;
+    color: white;
+}
+footer div a:hover {
+    color: purple;
+    transition: 0.8s;
 }
