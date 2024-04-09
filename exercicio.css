@@ -46,6 +46,10 @@
     cursor: pointer;
     color:rgb(19,153,108)
 }
+.app {
+    text-align: center;
+}
+
 #Lenda {
     padding: 15rem;
     background-color: rgb(226, 233, 233);
@@ -68,13 +72,14 @@
 }
 #line-tom {
     padding: 15rem;
-    background-color: rgb(226, 233, 233);
+    background-color: rgba(226, 26, 76, 0.048);
+    color: rgba(164, 176, 209, 0.473);
 
 }
 #line-tom h2 {
     font-size: 40px;
     text-align: center;
-    color:rgba(7, 7, 99, 0.697);
+    color:rgba(230, 28, 139, 0.76);
     margin-top: -20rem;
     margin-bottom: 2rem;
 }
